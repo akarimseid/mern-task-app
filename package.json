@@ -1,0 +1,19 @@
+{
+  "name": "mytasks-root",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "dev": "cd client && npm run dev",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "start": "cd server && npm start"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2"
+  }
+}
